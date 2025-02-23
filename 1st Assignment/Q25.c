@@ -21,6 +21,7 @@ int main() {
     scanf("%f", &student.marks);
 
     // Displaying student details
+    
     printf("\nStudent Information:\n");
     printf("Roll Number: %d\n", student.rollNumber);
     printf("Name: %s\n", student.name);
