@@ -22,7 +22,7 @@ int main()
 
     printf("\n===================================================\n");
 
-    *ptr = *ptr+1;
+    ptr = ptr+1;
     printf("\nptr is %d ",*ptr);
     printf("\nAddress *ptr is %d ",&*ptr);
     printf("\nAddress ptr is %d ",&ptr);
