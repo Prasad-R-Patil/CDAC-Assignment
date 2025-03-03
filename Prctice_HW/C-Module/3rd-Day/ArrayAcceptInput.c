@@ -10,15 +10,20 @@ int main()
 
     int Arr[iNo];
     printf("Enter Data your Array :- ");
-    for(int i=0; i<iNo; i++)
+    int i;
+    for(i=0; i<iNo; i++)
     {
         scanf("%d",&Arr[i]);
     }
 
-    printf("Your Entered Data :- \n");
-    for(int i=0; i<iNo; i++)
+    printf("Your Entered Data :- ");
+    
+    int j;
+    
+    for(j=0; j<iNo; j++)
     {
-        printf("\nArr[%d] = %d",i,Arr[i]);
+        printf("\nArr[%d] = %d",i,Arr[j]);
     }
-
+    
+   return 0;
 }
