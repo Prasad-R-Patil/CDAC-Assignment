@@ -5,6 +5,11 @@ int main()
     int b=20;
 
     int sum = a+b;
+    
+    
+    
+    
+    
 
     printf("%d ",printf("value is ",sum));
 
